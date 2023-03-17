@@ -39,7 +39,7 @@ $(window).resize(function () {
 
 function timeElapse(date) {
 
-	var unniverse = new Date('2020/12/25 21:56');
+	var unniverse = new Date(date);
 	var current = new Date();
 
 
